@@ -1,0 +1,20 @@
+{
+  "page_title": "Київський національний економічний університет",
+  "page_urls":
+  {
+    "home_page": "http://kneu.edu.ua/ua/",
+    "contact_us_page": "http://kneu.edu.ua/ua/contact_us/",
+    "site_map": "http://kneu.edu.ua/ua/sitemap/"
+  },
+  "header_elements" :
+  {
+    "site_options": {
+      "home_href": "http://kneu.edu.ua/ua/",
+      "contact_us_href": "http://kneu.edu.ua/ua/contact_us/",
+      "site_map_href": "http://kneu.edu.ua/ua/sitemap/",
+      "home_title": "На головну",
+      "contact_us_title": "Написати листа",
+      "site_map_title": "Карта сайта"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "contacts_us_page":
+  {
+    "title": "Форма зворотнього зв`язку",
+    "fromFields":
+    {
+      "name": "test name",
+      "email": "testgmail.com",
+      "theme": "test theme",
+      "description": "description",
+      "questions":
+      {
+        "presscenter": "Пресцентр"
+      }
+    },
+    "successMessage": "Вашого листа надіслано"
+  }
+}

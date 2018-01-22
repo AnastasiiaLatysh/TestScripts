@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Type of driver connection "LOCAL" or "REMOTE"
+export SELENIUM_CONNECTION="LOCAL"
+
+# Local driver location
+export SELENIUM_DRIVER_PATH="PATH_TO_GECKODRIVER"
+
+# Selenium RC URL
+# export SELENIUM_RC_URL="RC URL"
+
+# Browser type "chrome", "firefox", "phantomjs"
+export SELENIUM_BROWSER="firefox"
+
+export SELENIUM_FIREFOX_PATH="/Applications/Firefox.app"
+
+export BASE_URL="http://kneu.edu.ua/"
+
+# Run The tests in project folder
+nosetests /path_to_test_scripts --nologcapture
