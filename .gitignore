@@ -1,0 +1,8 @@
+.idea/
+.DS_Store
+chromedriver
+__pycache__
+geckodriver
+geckodriver.log
+*.pyc
+*.sh

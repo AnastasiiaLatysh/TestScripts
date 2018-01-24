@@ -3,7 +3,7 @@ from framework.Locators import HeaderLocators
 
 class BaseElements(object):
     """
-    Class which contains base elements which are displayed on all site's pages
+    Class which contains base elements which are displayed on all site's pages 
     """
 
     def __init__(self, driver):
