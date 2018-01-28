@@ -2,7 +2,6 @@ import unittest
 from framework.Driver import Driver
 from framework.pages.HomePage import HomePage
 from framework.TestData import TestData, BASE_URL
-import os
 
 
 class BaseTest(unittest.TestCase):
