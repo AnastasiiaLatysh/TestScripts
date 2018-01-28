@@ -20,7 +20,7 @@ class HomePageTest(BaseTest):
                              "Link is correct for %d site option" % option_position)
 
     def test_check_scrolling(self):
-        # check scrolling down
+        # check scrolling down 
         position_before = self.home_page.get_scrolling_position()
         self.home_page.scroll_page()
         self.assertTrue(self.home_page.get_scrolling_position() > position_before, 'Scrolling down is executed')
