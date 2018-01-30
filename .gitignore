@@ -6,3 +6,4 @@ geckodriver
 geckodriver.log
 *.pyc
 *.sh
+.gitignore

@@ -29,7 +29,7 @@ class HomePageTest(BaseTest):
         position_before = self.home_page.get_scrolling_position()
         self.home_page.scroll_page(height_position=0)
         self.assertTrue(self.home_page.get_scrolling_position() < position_before, 'Scrolling up is executed.')
-        self.assertEqual(0, self.home_page.get_scrolling_position(), 'Scrolling up is executed correctly')
+        self.assertEqual(0, self.home_page.get_scrolling_position(), 'Scrolling up is executed correctly.vv..')
 
 
 if __name__ == "__main__":
